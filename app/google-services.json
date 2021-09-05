@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "251625201383",
+    "firebase_url": "https://perls-85826.firebaseio.com",
+    "project_id": "perls-85826",
+    "storage_bucket": "perls-85826.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:251625201383:android:b012ac274b6d9a82e48c42",
+        "android_client_info": {
+          "package_name": "com.perls3.bellesvues"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "251625201383-t5btds8eevau16s1akd7g4tkb4to03f4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCTLKxMJwxovMkw6O_2hKVEepQwIpdp87g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "251625201383-t5btds8eevau16s1akd7g4tkb4to03f4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:251625201383:android:55a56717163bdca3e48c42",
+        "android_client_info": {
+          "package_name": "com.perls3.perls"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "251625201383-t5btds8eevau16s1akd7g4tkb4to03f4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCTLKxMJwxovMkw6O_2hKVEepQwIpdp87g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "251625201383-t5btds8eevau16s1akd7g4tkb4to03f4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

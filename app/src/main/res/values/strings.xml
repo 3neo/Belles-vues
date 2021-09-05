@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Belles Vues</string>
+    <string name="log_in">se connecter</string>
+    <string name="support">Support</string>
+    <string name="nav_open_drawer">open navigation drawer</string>
+    <string name="nav_close_drawer">close navigation drawer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment"> Belles Vues is a wonderful app made to play the role of bridge between the civil society and authorities, I strongly believe that only peaple participation is able to make a change in such a messy and awful situation like our country is living in , Use the Belles Vues mobile application from your smartphone to directly transmit anomalies from the streets and gardens of Tunis. The mobile application makes it easy to add photos and locations that allow field teams to better understand and deal with the anomalies transmitted, you will be informated after your alerts been resolved, in plus, in Belles Vues we protect peaple privacy, thus , every picture taken for peaple will instantly removed by Belles Vues itself, so theres no way to involve peaple in your alerts ,furthermore, Belles Vues is high secured app , i want users to be aware that all their information will be secured and hidden behind closed doors,and that all alerts are anonymous, and for this purpose , i decided to disable the comment option from the app.</string>
+    <string name="ajouter">ajouter</string>
+    <string name="entrez_le_code_de_verification_svp">entrez le code de verification svp</string>
+    <string name="v_rifier">vérifier</string>
+    <string name="code_de_verification">code de verification</string>
+    <string name="entrez_le_code_de_verification">Entrez le code de verification</string>
+    <string name="votre_num_ro_de_telephone">Votre numéro de telephone</string>
+    <string name="a_propos_de_belles_vues">A propos de Belles Vues</string>
+    <string name="phoneprefix">+216</string>
+    <string name="nom">Nom</string>
+    <string name="pr_nom">Prénom</string>
+    <string name="profession">Profession</string>
+    <string name="age">Age</string>
+    <string name="b_n_voles">bénévoles</string>
+    <string name="v_nements">Événements</string>
+    <string name="aide">aide</string>
+    <string name="nous_contacter">Nous contacter</string>
+    <string name="a_propos_de_bellesvues">A propos de BellesVues</string>
+    <string name="d_connexion">déconnexion</string>
+    <string name="espace_administrateur">espace administrateur</string>
+    <string name="mot_de_passe_administrateur">mot de passe administrateur</string>
+    <string name="administration">administration</string>
+    <!-- TODO: Remove or change this placeholder text -->
+
+
+</resources>

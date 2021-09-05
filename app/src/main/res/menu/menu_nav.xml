@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group>
+        <item
+            android:id="@+id/disconnect"
+            android:title="@string/d_connexion" />
+
+        <item
+            android:id="@+id/benevole"
+            android:title="@string/b_n_voles" />
+        <item
+            android:id="@+id/evenements"
+            android:title="@string/v_nements" />
+
+    </group>
+    <item android:title="@string/support">
+        <menu>
+
+            <item
+                android:id="@+id/contact"
+                android:title="@string/nous_contacter" />
+            <item
+                android:id="@+id/propos"
+                android:title="@string/a_propos_de_bellesvues" />
+
+
+
+        </menu>
+    </item>
+    <item android:title="@string/administration">
+        <menu>
+            <item
+                android:id="@+id/admin"
+                android:title="@string/espace_administrateur" />
+        </menu>
+    </item>
+</menu>

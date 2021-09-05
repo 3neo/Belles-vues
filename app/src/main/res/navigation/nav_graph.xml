@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/splashScreen">
+
+
+    <fragment
+        android:id="@+id/alertFragment2"
+        android:name="com.perls3.bellesvues.fragments.AlertFragment"
+        android:label="alert_fragment"
+        tools:layout="@layout/alert_fragment" >
+        <action
+            android:id="@+id/action_alertFragment2_to_pictureFragment"
+            app:destination="@id/pictureFragment" />
+        <action
+            android:id="@+id/action_alertFragment2_to_benevoleReg"
+            app:destination="@id/benevoleReg" />
+        <action
+            android:id="@+id/action_alertFragment2_to_apropos"
+            app:destination="@id/apropos" />
+        <action
+            android:id="@+id/action_alertFragment2_to_events"
+            app:destination="@id/events" />
+        <action
+            android:id="@+id/action_alertFragment2_to_splashScreen"
+            app:destination="@id/splashScreen" />
+        <action
+            android:id="@+id/action_alertFragment2_to_blankFragment"
+            app:destination="@id/blankFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/pictureFragment"
+        android:name="com.perls3.bellesvues.fragments.PictureFragment"
+        android:label="fragment_picture"
+        tools:layout="@layout/fragment_picture" >
+        <action
+            android:id="@+id/action_pictureFragment_to_alertFragment2"
+            app:destination="@id/alertFragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/phoneRegistration"
+        android:name="com.perls3.bellesvues.fragments.PhoneRegistration"
+        android:label="fragment_phone_registration"
+        tools:layout="@layout/fragment_phone_registration" >
+        <action
+            android:id="@+id/action_phoneRegistration_to_alertFragment2"
+            app:destination="@id/alertFragment2" />
+        <action
+            android:id="@+id/action_phoneRegistration_to_codeFb"
+            app:destination="@id/codeFb" />
+    </fragment>
+    <fragment
+        android:id="@+id/splashScreen"
+        android:name="com.perls3.bellesvues.fragments.SplashScreen"
+        android:label="splash_screen_fragment"
+        tools:layout="@layout/splash_screen_fragment" >
+        <action
+            android:id="@+id/action_splashScreen_to_phoneRegistration"
+            app:destination="@id/phoneRegistration" />
+        <action
+            android:id="@+id/action_splashScreen_to_apropos"
+            app:destination="@id/apropos" />
+    </fragment>
+    <fragment
+        android:id="@+id/codeFb"
+        android:name="com.perls3.bellesvues.fragments.CodeFb"
+        android:label="fragment_code_fb"
+        tools:layout="@layout/fragment_code_fb"
+        app:startDestination="@id/action_codeFb_to_alertFragment2">
+        <action
+            android:id="@+id/action_codeFb_to_alertFragment2"
+            app:destination="@id/alertFragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/benevoleReg"
+        android:name="com.perls3.bellesvues.fragments.BenevoleReg"
+        android:label="fragment_benevole_reg"
+        tools:layout="@layout/fragment_benevole_reg" />
+    <fragment
+        android:id="@+id/apropos"
+        android:name="com.perls3.bellesvues.fragments.Apropos"
+        android:label="fragment_apropos"
+        tools:layout="@layout/fragment_apropos" />
+    <fragment
+        android:id="@+id/events"
+        android:name="com.perls3.bellesvues.fragments.Events"
+        android:label="fragment_events"
+        tools:layout="@layout/fragment_events" >
+        <action
+            android:id="@+id/action_events_to_oneEvent"
+            app:destination="@id/oneEvent" />
+    </fragment>
+    <fragment
+        android:id="@+id/oneEvent"
+        android:name="com.perls3.bellesvues.fragments.OneEvent"
+        android:label="one_event_fragment"
+        tools:layout="@layout/one_event_fragment" />
+    <fragment
+        android:id="@+id/blankFragment"
+        android:name="com.perls3.bellesvues.fragments.BlankFragment"
+        android:label="fragment_blank"
+        tools:layout="@layout/fragment_blank" />
+</navigation>
